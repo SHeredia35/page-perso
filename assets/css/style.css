@@ -1,0 +1,41 @@
+:root {
+  --couleur-texte: #c6ac8f;
+  --couleur-fond: #0a0908;
+  --couleur-accent:#22333b;
+  --couleur-discrete: #eae0d5;
+  --couleur-sect:#5e503f;
+  --espace-1: 0.25rem;
+  --espace-2: 0.5rem;
+  --espace-3: 1rem;
+  --espace-4: 1.5rem;
+  --espace-5: 2.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: var(--espace-3);
+  font-family: system-ui, sans-serif;
+  line-height: 1.5;
+  color: var(--couleur-texte);
+  background: var(--couleur-fond);
+  display: flex;
+  justify-content: center;
+}
+section{
+    width: 50vw;
+    height: 50vh;
+    background-color: var(--couleur-sect);
+
+}
+img{
+    width: 25%;
+    height: 25%;
+    border-radius: 10px;
+}
