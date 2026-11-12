@@ -1,9 +1,9 @@
 :root {
-  --couleur-texte: #c6ac8f;
-  --couleur-fond: #0a0908;
-  --couleur-accent:#22333b;
-  --couleur-discrete: #eae0d5;
-  --couleur-sect:#5e503f;
+  --couleur-texte: #f2e8cf;
+  --couleur-fond: #386641;
+  --couleur-accent:#bc4749;
+  --couleur-discrete: #a7c957;
+  --couleur-sect:#6a994e;
   --espace-1: 0.25rem;
   --espace-2: 0.5rem;
   --espace-3: 1rem;
@@ -30,12 +30,25 @@ body {
 }
 section{
     width: 50vw;
-    height: 50vh;
+    height: 100vh;
     background-color: var(--couleur-sect);
-
 }
 img{
     width: 25%;
-    height: 25%;
     border-radius: 10px;
+    display: flex;
+    justify-self: center;
+}
+li{
+  color: var(--couleur-discrete);
+}
+h1{
+  color: var(--couleur-accent);
+  display: flex;
+  justify-self: center;
+}
+h2{
+  
+  display: flex;
+  justify-self: center;
 }
